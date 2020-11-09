@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="103.0" layoutY="22.0" prefHeight="36.0" prefWidth="300.0" text="    Nacimientos Pescados">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="combTipo_pez" layoutX="14.0" layoutY="103.0" onMouseClicked="#CombTipo_pez" prefHeight="25.0" prefWidth="233.0" />
+      <Label layoutX="48.0" layoutY="71.0" text="Tipo de pez" textFill="#3c06ff">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="71.0" text="Por nacimiento" textFill="#5203fc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCantidad" layoutX="256.0" layoutY="103.0" prefHeight="25.0" prefWidth="165.0" />
+      <Button layoutX="433.0" layoutY="103.0" mnemonicParsing="false" onAction="#insertar" text="Insertar" textFill="#5307f8" />
+      <Button layoutX="16.0" layoutY="138.0" mnemonicParsing="false" onAction="#procesar" prefHeight="25.0" prefWidth="474.0" text="Procesar" textFill="#4200f7">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <ListView fx:id="lisRes" layoutX="17.0" layoutY="192.0" prefHeight="288.0" prefWidth="474.0" />
+   </children>
+</AnchorPane>
