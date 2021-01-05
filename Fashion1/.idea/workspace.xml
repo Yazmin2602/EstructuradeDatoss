@@ -51,6 +51,15 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="css" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -60,7 +69,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1jO5rykbDiu6tKEblqWu4MPFk5T" />
+  <component name="ProjectId" id="1mM8m1yM2rqQgDZipWrudA8RlgA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -78,13 +87,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yazmin Palacios\Desktop\Estructura\EstructuradeDatoss\Fashion\src\sample\img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -114,7 +126,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="Repasofinal" />
+      <module name="Fashion" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -188,37 +200,39 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="108" key="FileChooserDialogImpl" timestamp="1607032708264">
+    <state x="322" y="57" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1609293803236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="552" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607032708264" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1607034208604">
+    <state x="322" y="57" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609293803236" />
+    <state x="686" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1609376881474">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609375778783" />
+    <state x="686" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1609376881474" />
+    <state x="651" y="194" key="FileChooserDialogImpl" timestamp="1609387913656">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609368183367" />
+    <state x="651" y="194" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1609387913656" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1609813234777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607034208604" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1607034208604">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609813234777" />
+    <state width="914" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1609794001978" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1609813234777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607034208604" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1607034208603">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609813234777" />
+    <state width="914" height="326" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1609794001978" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1609813234777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607034208603" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1607034208604">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609813234777" />
+    <state width="914" height="326" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1609794001978" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1609813234777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607034208604" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1603669917149">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603669917149" />
-    <state x="739" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1607032460267">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="739" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607032460267" />
-    <state x="131" y="0" key="new project wizard" timestamp="1607032764721">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="131" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1607032764721" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609813234777" />
+    <state width="914" height="326" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1609794001978" />
   </component>
 </project>

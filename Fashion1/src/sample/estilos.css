@@ -1,0 +1,40 @@
+.fondo{
+-fx-background-image:url("./img/Fashion.png");
+-fx-background-size: 110% 100% ;
+}
+
+.fondo2{
+-fx-background-image:url("./img/fondo.png");
+-fx-background-size: 110% 100% ;
+}
+
+
+.buttonAceptar{
+-fx-background-color: #BA4C57;
+-fx-background-radius: 30px;
+}
+
+.txtfield{
+-fx-background-color: #BA4C57;
+-fx-border-radius: 30px;
+-fx-background-radius: 15px;
+}
+
+.cabecera{
+-fx-background-color: #BA4C57;
+}
+
+.button2{
+-fx-background-color: #BA4C57;
+-fx-background-radius: 30px;
+}
+
+.button3{
+-fx-background-color: #BA4C57;
+-fx-background-radius: 30px;
+}
+
+.button4{
+-fx-background-color: #BA4C57;
+-fx-background-radius: 30px;
+}
