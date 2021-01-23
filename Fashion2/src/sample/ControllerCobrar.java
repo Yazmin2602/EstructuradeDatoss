@@ -4,11 +4,15 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import sample.Estructura.Pedido;
 import sample.Estructura.Pedidos;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -22,7 +26,7 @@ public class ControllerCobrar {
     TableColumn columnCantidadJeans=new TableColumn("CANTIDAD");
     TableColumn columnSueter=new TableColumn("SUETER");
     TableColumn columnCantidadSueter=new TableColumn("CANTIDAD");
-    TableColumn columnTotal=new TableColumn("Total");
+    TableColumn columnTotal=new TableColumn("TOTAL");
     ObservableList<Pedidos> listaPedidos= FXCollections.observableArrayList();
     Queue<Pedido> cola= new LinkedList<>();
     @FXML protected void initialize(){
@@ -74,9 +78,19 @@ public void GuardarPedido(ActionEvent event){
         txtCliente.setText("");
 
 
-        Alert alert =new Alert(Alert.AlertType.ERROR);
+        Alert alert =new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText("BOUTIQUE");
         alert.setContentText("Pedido finalizado, gracias por su compra, vuelva pronto!! ");
         alert.show();
+    }
+    public void Ventas(ActionEvent event){
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("PantallaVentas.fxml"));
+            Scene scene=new Scene(root);
+            Main.stage.setScene(scene);
+            Main.stage.setMaximized(true);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

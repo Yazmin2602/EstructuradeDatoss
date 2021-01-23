@@ -11,7 +11,9 @@ public class Pedidos {
     SimpleStringProperty precioS;
     SimpleStringProperty total;
 
-    public Pedidos (String Jeans, String Sueter, String CantJeans, String CantSueter,String precioJ,String precioS,String total){
+
+
+    public Pedidos (String Jeans, String Sueter, String CantJeans, String CantSueter, String precioJ, String precioS, String total){
         this.Jeans= new SimpleStringProperty(Jeans);
         this.Sueter=new SimpleStringProperty(Sueter);
         this.CantJeans= new SimpleStringProperty(CantJeans);
@@ -19,6 +21,7 @@ public class Pedidos {
         this.precioJ=new SimpleStringProperty(precioJ);
         this.precioJ=new SimpleStringProperty(precioS);
         this.total=new SimpleStringProperty(total);
+       
     }
 
     public String getJeans() {
@@ -104,4 +107,5 @@ public class Pedidos {
     public void setPrecioS(String precioS) {
         this.precioS.set(precioS);
     }
+
 }

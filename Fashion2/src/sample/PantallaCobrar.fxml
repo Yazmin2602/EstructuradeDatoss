@@ -131,24 +131,24 @@
             </Label>
             <Label prefHeight="17.0" prefWidth="81.0" text="SUETER">
                <HBox.margin>
-                  <Insets left="-62.0" top="92.0" />
+                  <Insets left="-55.0" top="92.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="comboJeans" prefWidth="100.0">
+               <HBox.margin>
+                  <Insets left="-54.0" right="-25.0" top="48.0" />
+               </HBox.margin>
+            </ComboBox>
+            <Label prefHeight="17.0" prefWidth="72.0" text="CLIENTE">
+               <HBox.margin>
+                  <Insets left="-72.0" right="21.0" top="194.0" />
                </HBox.margin>
             </Label>
             <ComboBox fx:id="comboSueter" prefWidth="100.0">
                <HBox.margin>
-                  <Insets left="-83.0" right="-20.0" top="123.0" />
+                  <Insets left="-83.0" right="-17.0" top="123.0" />
                </HBox.margin>
             </ComboBox>
-            <ComboBox fx:id="comboJeans" prefWidth="100.0">
-               <HBox.margin>
-                  <Insets left="-80.0" right="-45.0" top="48.0" />
-               </HBox.margin>
-            </ComboBox>
-            <Label prefHeight="17.0" prefWidth="51.0" text="CLIENTE">
-               <HBox.margin>
-                  <Insets left="-54.0" right="8.0" top="194.0" />
-               </HBox.margin>
-            </Label>
             <TextField fx:id="txtCliente" prefWidth="150.0">
                <HBox.margin>
                   <Insets left="-40.0" right="-129.0" top="220.0" />
@@ -156,22 +156,27 @@
             </TextField>
             <Button mnemonicParsing="false" onAction="#meterPedido" prefHeight="25.0" prefWidth="100.0" styleClass="button3" stylesheets="@estilos.css" text="Enter">
                <HBox.margin>
-                  <Insets left="27.0" right="-4.0" top="165.0" />
+                  <Insets left="11.0" right="-4.0" top="165.0" />
                </HBox.margin>
             </Button>
             <Button mnemonicParsing="false" onAction="#GuardarPedido" prefHeight="25.0" prefWidth="200.0" styleClass="button2" stylesheets="@estilos.css" text="GUARDAR PEDIDO">
                <HBox.margin>
-                  <Insets left="-151.0" right="-87.0" top="273.0" />
+                  <Insets left="-151.0" right="-87.0" top="259.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Ventas" prefHeight="25.0" prefWidth="98.0" styleClass="button4" stylesheets="@estilos.css" text="Ventas 2020">
+               <HBox.margin>
+                  <Insets left="-48.0" top="300.0" />
                </HBox.margin>
             </Button>
             <TextField fx:id="txtCantSueter" prefWidth="100.0">
                <HBox.margin>
-                  <Insets left="-17.0" right="-140.0" top="123.0" />
+                  <Insets left="-50.0" right="-131.0" top="123.0" />
                </HBox.margin>
             </TextField>
             <TextField fx:id="txtCantJeans" prefWidth="100.0">
                <HBox.margin>
-                  <Insets left="39.0" right="-2.0" top="48.0" />
+                  <Insets left="38.0" right="5.0" top="48.0" />
                </HBox.margin>
             </TextField>
          </children>
